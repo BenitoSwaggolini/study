@@ -4,7 +4,7 @@ from typing import Union
 class MapExercise:
     @staticmethod
     def rating(list_of_movies: list[dict]) -> float:
-        films_count = 0
+        films_count: int = 0
 
         def yeah():
             nonlocal films_count
